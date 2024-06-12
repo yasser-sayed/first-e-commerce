@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  transition-duration: 300ms;
+}
+
+.btn-rotate {
+  @apply group-hover:rotate-[360deg]  text-xl lg:text-2xl;
+}
